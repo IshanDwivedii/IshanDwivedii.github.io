@@ -1,6 +1,5 @@
 {
-  "homepage": "https://IshanDwivedii.github.io/IshanDwivedii.github.io",
-  "name": "tailwind-nextjs-starter-blog",
+  "name": "Ishan",
   "version": "1.5.6",
   "private": true,
   "scripts": {
@@ -11,8 +10,8 @@
     "analyze": "cross-env ANALYZE=true next build",
     "lint": "next lint --fix --dir pages --dir components --dir lib --dir layouts --dir scripts",
     "prepare": "husky install",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d out"
+    "deploy": "gh-pages -d out",
+    "predeploy": "npm run build"
   },
   "dependencies": {
     "@fontsource/inter": "4.5.2",
@@ -63,9 +62,7 @@
     "prettier": "^2.5.1",
     "prettier-plugin-tailwindcss": "^0.1.4",
     "socket.io": "^4.4.0",
-    "socket.io-client": "^4.4.0",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "socket.io-client": "^4.4.0"
   },
   "lint-staged": {
     "*.+(js|jsx|ts|tsx)": [
