@@ -1,19 +1,23 @@
 const projectsData = [
   {
-    title: 'A Search Engine',
-    description: `What if you could look up any information in the world? Webpages, images, videos
-    and more. Google has many features to help you find exactly what you're looking
-    for.`,
-    imgSrc: '/static/images/google.png',
-    href: 'https://www.google.com',
+    title: 'Splitwise',
+    description: `Designed to simplify the process of splitting expenses, allows users to track shared bills.`,
+    href: 'https://github.com/IshanDwivedii',
   },
   {
-    title: 'The Time Machine',
-    description: `Imagine being able to travel back in time or to the future. Simple turn the knob
-    to the desired date and press "Go". No more worrying about lost keys or
-    forgotten headphones with this simple yet affordable solution.`,
-    imgSrc: '/static/images/time-machine.jpg',
-    href: '/blog/the-time-machine',
+    title: 'Parking Lot - PRO',
+    description: `Design of a scalable, efficient, and feature-rich parking lot management system.`,
+    href: 'https://github.com/IshanDwivedii/ParkingLot-PRO',
+  },
+  {
+    title: 'Blog Website',
+    description: `A blog website showcasing my projects & blogs`,
+    href: 'https://github.com/IshanDwivedii/my-blog-dev/',
+  },
+  {
+    title: 'SMTP Pool',
+    description: `An SMTP Pool is a system that manages multiple SMTP (Simple Mail Transfer Protocol) connections to efficiently send large volumes of emails`,
+    href: 'https://github.com/IshanDwivedii/smtp-pool',
   },
 ]
 
